@@ -1,0 +1,296 @@
+body {
+    /* background: rgb(9, 63, 107); */
+    color: #366d92;
+    font-family: "Montserrat", "Arial", sans-serif;
+    line-height: 150%;
+}
+
+/* *********************************************************************************** */
+
+.header {
+    background: rgb(9, 63, 107);
+}
+
+
+.kontainer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    max-height: 48px;
+    padding: 0 15px;
+}
+
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list-nav {
+    display: flex;
+}
+
+.header-list-social {
+    display: flex;
+}
+
+.header-nav-item {
+    margin-right: 30px;
+    color: #9ba50c;
+}
+
+.header-social-item {
+    margin-right: 30px;
+    color: #9ba50c;
+}
+
+.first-block {
+    background: url("../img/Back.png") 35% 50% / cover no-repeat;
+    padding: 325px 0;
+}
+
+.advantages {
+    /* display: flex; */
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+    max-width: 289px;
+    max-height: 246px;
+    margin: 0 auto;
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* vertical-align: baseline; */
+    /* text-align: center; */
+}
+
+.zagolovok {
+    color: #9ba50c;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.preimush {
+    color: #9ba50c;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Button {
+    border-radius: 100px;
+    background: #366d92;
+    color: #9ba50c;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+
+.palec {
+    vertical-align: baseline;
+}
+
+.second-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+}
+
+.spisok {
+    list-style-type: none;
+    color: rgb(37, 40, 43);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 144px;
+    height: 300px;
+}
+
+.menu {
+    display: flex;
+    max-width: 282px;
+    max-height: 1170px;
+    /* height: 100%; */
+    padding: 30px 108px 840px 30px;
+    border: solid;
+    margin: 35px 126px 0px 120px;
+}
+
+.mnogofoto {
+    display: flex;
+    max-width: 792px;
+    max-height: 792px;
+    /* background: #366d92; */
+    margin: 35px 0px 0px 0px;
+    flex-wrap: wrap;
+}
+
+.onefoto {
+    display: flex;
+    background-image: url("../img/kompykter.png");
+    background-repeat: space;
+    background-size: 185px;
+    height: 384px;
+    width: 384px;
+    margin: 0px 0px 12px 12px;
+}
+
+.onefoto1 {
+    display: flex;
+    background-image: url("../img/kompykter.png");
+    height: 384px;
+    width: 384px;
+    margin: 12px 0px 0px 12px;
+}
+
+.four {
+    display: flex;
+    background-image: url("../img/kompykter.png");
+    height: 384px;
+    width: 384px;
+    margin: 0px 12px 12px 0px;
+}
+
+.four1 {
+    display: flex;
+    background-image: url("../img/kompykter.png");
+    background-repeat: space;
+    background-size: 185px;
+    height: 384px;
+    width: 384px;
+    margin: 12px 12px 0px 0px;
+}
+
+.watchANDbutton {
+    display: flex;
+    width: 792px;
+    height: 1110px;
+    /* background-color: #366d92; */
+    margin: -254px 0px 0px 528px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.watch1 {
+    display: flex;
+    width: 384px;
+    height: 354px;
+    display: flex;
+    /* border: solid red 1px; */
+    margin: 0px 12px 12px 0px;
+    background-image: url("../img/Watch.png");
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.watch2 {
+    display: flex;
+    width: 384px;
+    height: 354px;
+    display: flex;
+    /* border: solid red 1px; */
+    margin: 0px 0px 12px 12px;
+    background-image: url("../img/WatchHit.png");
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.watch3 {
+    display: flex;
+    width: 384px;
+    height: 354px;
+    display: flex;
+    /* border: solid red 1px; */
+    margin: 12px 12px 12px 0px;
+    background-image: url("../img/WatchHit.png");
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.watch4 {
+    display: flex;
+    width: 384px;
+    height: 354px;
+    display: flex;
+    /* border: solid red 1px; */
+    margin: 12px 0px 12px 12px;
+    background-image: url("../img/Watch.png");
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.watch5 {
+    display: flex;
+    width: 384px;
+    height: 354px;
+    display: flex;
+    /* border: solid red 1px; */
+    margin: 12px 12px 0px 0px;
+    background-image: url("../img/Watch.png");
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.watch6 {
+    display: flex;
+    width: 384px;
+    height: 354px;
+    display: flex;
+    /* border: solid red 1px; */
+    margin: 12px 0px 0px 12px;
+    background-image: url("../img/Watch.png");
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.Button2 {
+    border-radius: 100px;
+    background: #D0DCE7;
+    color: #9ba50c;
+    width: 289px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    margin: 30px 48px 30px 48px;
+}
+
+.futerCURVA {
+    width: auto;
+    max-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #788088;
+    margin-top: 210px;
+    padding: 30px 600px 30px 600px;
+}
+/* 
+.Vector {
+    vertical-align: baseline;
+} */
+/* img{
+    vertical-align: inherit;
+} */
